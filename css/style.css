@@ -1,0 +1,152 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* navbar */
+nav {
+    background-color: #1A1A1A;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-item .nav-link {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.button-daftar {
+    border-radius: 8px;
+    border: 2px solid #D84533;
+    color: #D84533;
+    background-color: transparent;
+    padding: 16px 56px;
+}
+
+.button-daftar:hover {
+    background-color: #D84533;
+    color: #FFFFFF;
+
+}
+
+.button-masuk {
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #D84533;
+    padding: 16px 56px;
+}
+
+/* END Navbar */
+
+/* Content */
+/* LEFT Content */
+/* TOP Content */
+.content .left-content .top-content {
+    border-radius: 10px;
+    border: 2px solid #696969;
+    background: #444343;
+}
+
+.content .left-content .top-content h4 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.content .left-content .top-content p {
+    color: #F6BC97;
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px
+}
+
+.content .left-content .top-content .description p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* END TOP Content */
+
+/* Testimoni Pembelian Terakhir */
+.content .left-content .testimoni-pembelian-terakhir {
+    border-radius: 10px;
+    border: 2px solid #696969;
+    background: #444343;
+}
+
+.content .left-content .testimoni-pembelian-terakhir .title {
+    background: #818181;
+}
+
+.content .left-content .testimoni-pembelian-terakhir h4 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.content .left-content .testimoni-pembelian-terakhir .card-body {
+    background-color: #444343;
+    color: #FFFFFF;
+}
+
+.content .left-content .testimoni-pembelian-terakhir .card-title .name {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px
+}
+
+.content .left-content .testimoni-pembelian-terakhir .card-title .time {
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .left-content .testimoni-pembelian-terakhir .card-no-telp {
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .left-content .testimoni-pembelian-terakhir .card-subtitle .bi-star-fill {
+    color: #FBBC04
+}
+
+/* END Testimoni Pembelian Terakhir */
+
+/* END LEFT Content */
+
+/* Right Content */
+.content .right-content .content-1 {
+    border-radius: 10px;
+    border: 2px solid #696969;
+    background: #444343;
+    color: #FFFFFF;
+}
+
+.content .right-content .content-1 span.number {
+    border-radius: 8px;
+    background: #E54649;
+    box-shadow: 0px 0px 10px 0px rgba(241, 201, 76, 0.25);
+    padding: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.content .right-content .content-1 span.caption {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+/* END Right Content */
+/*END Content */
