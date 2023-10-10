@@ -1,3 +1,5 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
 body {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -36,6 +38,14 @@ nav {
     color: #FFFFFF;
     background-color: #D84533;
     padding: 16px 56px;
+}
+
+input {
+    font-family: 'Font Awesome';
+}
+
+.nav-link.active {
+    color: #D84533 !important;
 }
 
 /* END Navbar */
@@ -125,11 +135,18 @@ nav {
 /* END LEFT Content */
 
 /* Right Content */
+/* Content 1 */
 .content .right-content .content-1 {
     border-radius: 10px;
     border: 2px solid #696969;
     background: #444343;
     color: #FFFFFF;
+}
+
+.content .right-content .content-1 .box {
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background: #818181;
 }
 
 .content .right-content .content-1 span.number {
@@ -146,7 +163,308 @@ nav {
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
+    text-align: left;
 }
+
+.content .right-content .content-1 p.subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #F6BC97;
+}
+
+/* END Content 1 */
+/* Content 2 */
+.content .right-content .content-2 {
+    border-radius: 10px;
+    border: 2px solid #696969;
+    background: #444343;
+    color: #FFFFFF;
+}
+
+.content .right-content .content-2 .box {
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background: #818181;
+}
+
+.content .right-content .content-2 span.number {
+    border-radius: 8px;
+    background: #E54649;
+    box-shadow: 0px 0px 10px 0px rgba(241, 201, 76, 0.25);
+    padding: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.content .right-content .content-2 span.caption {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+.content .right-content .content-2 h4.title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.content .right-content .content-3 {
+    border-radius: 10px;
+    border: 2px solid #696969;
+    background: #444343;
+    color: #FFFFFF;
+}
+
+.content .right-content .content-3 span.number {
+    border-radius: 8px;
+    background: #E54649;
+    box-shadow: 0px 0px 10px 0px rgba(241, 201, 76, 0.25);
+    padding: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.content .right-content .content-3 span.caption {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+.content .right-content .content-2 .card {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.content .right-content .content-2 .card {
+    background: linear-gradient(94.88deg, #818181 27.11%, #AAAAAA 104.74%);
+    color: #FFFFFF;
+}
+
+.content .right-content .content-2 .card-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.content .right-content .content-2 .card-text {
+    font-size: 12px;
+    font-style: italic;
+    text-decoration: line-through;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.content .right-content .content-2 .card-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* END Content 2 */
+
+/* Content 3 */
+.content .right-content .content-3 {
+    border-radius: 10px;
+    border: 2px solid #696969;
+    background: #444343;
+    color: #FFFFFF;
+}
+
+.content .right-content .content-3 .box {
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background: #818181;
+}
+
+.content .right-content .content-3 span.number {
+    border-radius: 8px;
+    background: #E54649;
+    box-shadow: 0px 0px 10px 0px rgba(241, 201, 76, 0.25);
+    padding: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.content .right-content .content-3 span.caption {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+.content .right-content .content-3 .payment-method-group .method {
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    background: #818181;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.content .right-content .content-3 .payment-method-group .list-app {
+    margin-top: -2%;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+/* END Content 3 */
+
+/* Content 4 */
+.content .right-content .content-4 {
+    border-radius: 10px;
+    border: 2px solid #696969;
+    background: #444343;
+    color: #FFFFFF;
+}
+
+.content .right-content .content-4 .box {
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background: #818181;
+}
+
+.content .right-content .content-4 span.number {
+    border-radius: 8px;
+    background: #E54649;
+    box-shadow: 0px 0px 10px 0px rgba(241, 201, 76, 0.25);
+    padding: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.content .right-content .content-4 span.caption {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+.content .right-content .content-4 label {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .right-content .content-4 .button-submit {
+    border-radius: 8px;
+    background: #E54649;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    width: 290px;
+    padding: 16px 46px;
+}
+
+/* END Content 4 */
+/* Content 5 */
+.content .right-content .content-5 {
+    border-radius: 10px;
+    border: 2px solid #696969;
+    background: #444343;
+    color: #FFFFFF;
+}
+
+.content .right-content .content-5 .box {
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background: #818181;
+}
+
+.content .right-content .content-5 span.number {
+    border-radius: 8px;
+    background: #E54649;
+    box-shadow: 0px 0px 10px 0px rgba(241, 201, 76, 0.25);
+    padding: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.content .right-content .content-5 span.caption {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+.content .right-content .content-5 label {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .right-content .content-5 .button-submit {
+    border-radius: 8px;
+    background: #E54649;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    width: 290px;
+    padding: 16px 46px;
+}
+
+.content .right-content .content-5 #no_whatsapp {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.content .right-content .content-5 span.ketentuan-layanan {
+    color: #E54649;
+}
+
+/*END Content 5 */
 
 /* END Right Content */
 /*END Content */
+
+/* Footer */
+footer {
+    color: #FFFFFF;
+}
+
+footer .icon-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+footer .header {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* END Footer */
