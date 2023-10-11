@@ -51,6 +51,16 @@ input {
 /* END Navbar */
 
 /* Content */
+.content {
+    color: #FFFFFF;
+}
+
+@media (min-width: 992px) {
+    .content {
+        height: 100vh !important;
+    }
+}
+
 /* LEFT Content */
 /* TOP Content */
 .content .left-content .top-content {

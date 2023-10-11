@@ -52,6 +52,12 @@ input {
     color: #FFFFFF;
 }
 
+@media (min-width: 992px) {
+    .content {
+        height: 100vh !important;
+    }
+}
+
 .content h4.title {
     color: #FFF;
     font-size: 50px;

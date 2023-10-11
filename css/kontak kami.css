@@ -53,6 +53,12 @@ input {
     color: #FFFFFF;
 }
 
+@media (min-width: 992px) {
+    .content {
+        height: 100vh !important;
+    }
+}
+
 /* Left Content */
 .content .left-content h4 {
     color: #FFF;
