@@ -1,0 +1,180 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* navbar */
+nav {
+    background-color: #1A1A1A;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-item .nav-link {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.button-daftar {
+    border-radius: 8px;
+    border: 2px solid #D84533;
+    color: #D84533;
+    background-color: transparent;
+    padding: 16px 56px;
+}
+
+.button-daftar:hover {
+    background-color: #D84533;
+    color: #FFFFFF;
+
+}
+
+.button-masuk {
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #D84533;
+    padding: 16px 56px;
+}
+
+input {
+    font-family: 'Font Awesome';
+}
+
+.nav-link.active {
+    color: #D84533 !important;
+}
+
+/* END Navbar */
+
+/* Content */
+.content {
+    color: #FFFFFF;
+}
+
+/* Left Content */
+.content .left-content h4 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.content .left-content p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .left-content h5 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.content .left-content i {
+    font-size: 24px;
+}
+
+/* END Left Content */
+
+/* Right Content */
+.content .right-content .red-box {
+    border-radius: 10px;
+    background: #E54649;
+}
+
+.content .right-content i.bi-envelope-fill {
+    font-size: 50px;
+}
+
+.content .right-content i.bi-whatsapp {
+    font-size: 50px;
+    color: #E54649;
+}
+
+.content .right-content p.white-text {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .right-content p.red-text {
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .right-content form {
+    background-color: #444343;
+    border-radius: 20px;
+}
+
+.content .right-content .form-header {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.content .right-content label {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .right-content .form-select {
+    background-image: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>');
+    background-color: #818181;
+    color: #FFFFFF;
+}
+
+.content .right-content form .button-submit {
+    width: 290px;
+    padding: 16px 46px;
+    border-radius: 8px;
+    background: #E54649;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* END Right Content */
+
+/* END Content */
+
+/* Footer */
+footer {
+    color: #FFFFFF;
+}
+
+footer .icon-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+footer .header {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* END Footer */
