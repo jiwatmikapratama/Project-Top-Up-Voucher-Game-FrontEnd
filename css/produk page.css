@@ -1,0 +1,158 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* navbar */
+nav {
+    background-color: #1A1A1A;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-item .nav-link {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.button-daftar {
+    border-radius: 8px;
+    border: 2px solid #D84533;
+    color: #D84533;
+    background-color: transparent;
+    padding: 16px 56px;
+}
+
+.button-daftar:hover {
+    background-color: #D84533;
+    color: #FFFFFF;
+
+}
+
+.button-masuk {
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #D84533;
+    padding: 16px 56px;
+}
+
+input {
+    font-family: 'Font Awesome';
+}
+
+.nav-link.active {
+    color: #D84533 !important;
+}
+
+/* END Navbar */
+
+/* Content */
+.content {
+    color: #FFFFFF;
+}
+
+@media (min-width: 992px) {
+    .content {
+        /* height: 100vh !important; */
+    }
+}
+
+.content .banner img {
+    border-radius: 20px;
+}
+
+.content .box-item {
+    border-radius: 10px 10px 10px 10px;
+    background: #FFF;
+}
+
+.content .box-item img {
+    filter: brightness(0) saturate(100%) invert(33%) sepia(80%) saturate(1441%) hue-rotate(329deg) brightness(94%) contrast(90%);
+}
+
+.content .box-item p {
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.content .box-item #active {
+    background-color: #D84533;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFF;
+}
+
+.content .box-item #active>p {
+    color: #FFF;
+}
+
+.content .box-item #active>img {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(94%) saturate(5%) hue-rotate(155deg) brightness(105%) contrast(100%);
+}
+
+.content .line {
+    width: 100px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #E54649;
+    margin-left: 10px;
+}
+
+.content .card {
+    border-radius: 10px;
+    border-radius: 10px;
+    background: #444343;
+    height: 90%;
+    padding: 3%;
+}
+
+.content .card img {
+    border-radius: 20px;
+}
+
+.content .card-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+/*END Content */
+
+/* Footer */
+footer {
+    color: #FFFFFF;
+}
+
+footer .icon-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+footer .header {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* END Footer */
