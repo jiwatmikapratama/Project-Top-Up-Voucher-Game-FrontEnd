@@ -1,0 +1,139 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* navbar */
+nav {
+    background-color: #1A1A1A;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-item .nav-link {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.button-daftar {
+    border-radius: 8px;
+    border: 2px solid #D84533;
+    color: #D84533;
+    background-color: transparent;
+    padding: 16px 56px;
+}
+
+.button-daftar:hover {
+    background-color: #D84533;
+    color: #FFFFFF;
+
+}
+
+.button-masuk {
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #D84533;
+    padding: 16px 56px;
+}
+
+input {
+    font-family: 'Font Awesome';
+}
+
+.nav-link.active {
+    color: #D84533 !important;
+}
+
+/* END Navbar */
+/* Content */
+.content {
+    color: #FFFFFF;
+}
+
+@media (min-width: 992px) {
+    .content {
+        height: 100vh !important;
+    }
+}
+
+.content .box {
+    border-radius: 10px;
+    border: 2px solid #322F54;
+    background: #444343;
+}
+
+.content .form-details p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .form-details h5 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.content .form-details .line {
+    width: 682px;
+    height: 2px;
+    border-radius: 4px;
+    background: #B1B8C1;
+}
+
+.content .form-details .button-order {
+    width: 307px;
+    height: 64px;
+    border-radius: 8px;
+    background: #F1C94C;
+    color: #2E116B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .form-details .button-cancel {
+    width: 307px;
+    height: 64px;
+    border-radius: 8px;
+    background: #DC3545;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* END Content */
+/* Footer */
+footer {
+    color: #FFFFFF;
+}
+
+footer .icon-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+footer .header {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* END Footer */
