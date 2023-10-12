@@ -96,6 +96,13 @@ input {
     filter: brightness(0) saturate(100%) invert(99%) sepia(94%) saturate(5%) hue-rotate(155deg) brightness(105%) contrast(100%);
 }
 
+.content h4.title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
 .content .line {
     width: 100px;
     height: 2px;
