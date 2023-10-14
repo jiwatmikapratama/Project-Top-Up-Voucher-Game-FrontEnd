@@ -22,8 +22,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/cek transaksi.css">
+    <link rel="stylesheet" href="css/cek transaksi list.css">
 
+    <style>
+
+    </style>
 </head>
 
 <body style="background-image: url('assets/bg/bg1.PNG'); background-repeat: no-repeat; background-size: cover;">
@@ -64,7 +67,7 @@
                 </ul>
                 <ul class="navbar-nav d-flex align-items-center-lg">
                     <form class="d-flex" role="search">
-                        <input class="form-control search me-2" type="search"
+                        <input class="form-control form-icon search me-2" type="search"
                             placeholder="&#xf002; Cari kebutuhan anda..." aria-label="Search">
                     </form>
                     <svg class="mx-3 d-none d-xl-flex" width="1" height="65" viewBox="0 0 1 65" fill="none"
@@ -86,110 +89,128 @@
     <!-- Content -->
     <section class="container my-5 content">
         <div class="row">
-            <h4 class="title">Kalkulator MLBB Bang Jeff Version</h4>
-            <h6 class="subtitle my-2">Kalkulator Winrate Mobile Legends</h6>
-            <p class="description my-4">
-                Kalkulator Mobile Legends adalah alat yang dirancang untuk membantu pemain Mobile
-                Legends: Bang Bang dalam melakukan perhitungan tertentu terkait item, statistik dalam permainan.
-                Kalkulator ini biasanya digunakan untuk memudahkan pemain dalam menghitung Gacha dan Winrate, yang
-                optimal untuk mereka.
-            </p>
+            <h4 class="title">Cek Transaksi</h4>
+            <p class="subtitle">Masukan nomer transaksi anda untuk melacak pesanan anda.</p>
         </div>
-        <div class="row my-4">
-            <div class="accordion" id="accordion-calculator">
-                <div class="accordion-item my-2">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button
-                            class="accordion-button-custom col-12 d-flex justify-content-between align-items-center px-3"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                            aria-controls="collapseOne">
-                            Kalkulator Winrate Mobile Legends
-                            <i class="fas fa-chevron-right px-3"></i>
-                        </button>
-                    </h2>
-
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordion-calculator">
-                        <div class="accordion-body">
-                            <p class="title">Apa sih bang kegunaan kalkulator ini?</p>
-                            <p class="description">Digunakan untuk menghitung total pertandingan yang harus ditempuh
-                                untuk mencapai target winrate yang diinginkan.</p>
-                            <form class="mt-5">
-                                <div class="mb-3">
-                                    <label for="total-match" class="form-label">Masukkan Total Pertandinganmu</label>
-                                    <div class="col-lg-8">
-                                        <input type="text" class="form-control" id="total-match"
-                                            placeholder="Contoh : 5400">
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="winrate-now" class="form-label">Masukkan Winrate Saat Ini</label>
-                                    <div class="col-lg-8">
-                                        <input type="text" class="form-control" id="winrate-now"
-                                            placeholder="Contoh : 65.4">
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="desire-winrate" class="form-label">Masukkan Winrate yang
-                                        diinginkan</label>
-                                    <div class="col-lg-8">
-                                        <input type="text" class="form-control" id="desire-winrate"
-                                            placeholder="Contoh : 80.4">
-                                    </div>
-                                </div>
-                                <div class="row d-flex">
-                                    <button type="submit" class="button-check-winrate mx-3">Cek Winrate</button>
-                                    <button type="submit" class="button-order-joki mx-3">Order Joki</button>
-                                </div>
-                            </form>
-
-                        </div>
+        <div class="row box p-5 mb-5">
+            <div class="row check-transaction">
+                <form class="">
+                    <label for="check-transaction" class="form-label">Masukkan Nomer Transaksi</label>
+                    <div class="col-lg-7 mb-3 d-flex">
+                        <input type="text" class="form-control form-icon mx-2" id="check-transaction"
+                            placeholder="&#xf002; BJ*********980">
+                        <button type="submit" class="mx-2 button-check-trasaction">Cek Transaksi</button>
                     </div>
-                </div>
-                <div class="accordion-item my-2">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button
-                            class="accordion-button-custom col-12 d-flex justify-content-between align-items-center px-3 collapsed"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                            aria-controls="collapseTwo">
-                            Kalkulator Magic Wheel Mobile Legends
-                            <i class="fas fa-chevron-right px-3"></i>
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordion-calculator">
-                        <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
-                            the collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item my-2">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button
-                            class="accordion-button-custom col-12 d-flex justify-content-between align-items-center px-3 collapsed"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                            aria-expanded="false" aria-controls="collapseThree">
-                            Kalkulator Magic Wheel Mobile Legends
-                            <i class="fas fa-chevron-right px-3"></i>
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordion-calculator">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                    </div>
-                </div>
+                </form>
+            </div>
+            <div class="row my-4">
+                <p class="status">Status transaksi saat ini :</p>
+                <h4 class="description">BELUM DI PROSES</h4>
+                <table class="text-center">
+                    <thead>
+                        <tr class="">
+                            <th>Tanggal</th>
+                            <th>Nomer Transaksi</th>
+                            <th>Nomer Handphone</th>
+                            <th>Total Harga</th>
+                            <th>Status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>22-07-2023 20:14:34</td>
+                            <td>BJ16899093334</td>
+                            <td>081392413876</td>
+                            <td>Rp 21.800</td>
+                            <td class="belum-diproses">Belum Diproses</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="rule my-3">Jika anda mendapati pesanan tidak terdaftar meskipun Anda yakin sudah melakukan
+                    pemesanan. <br> Mohon tunggu 1-5 menit. Tetapi jika pesanan masih belum muncul, maka Anda dapat
+                    menghubungi kami.</p>
+            </div>
+            <div class="row list-last-transaction">
+                <h4 class="title">10 Transaksi Terakhir</h4>
+                <p class="description">Berikut adalah data dari 10 transaksi terakhir pengguna. <br>Informasi yang
+                    tersedia
+                    mencakup tanggal transaksi, nomer transaksi, nomor handphone, harga, dan status transaksi.</p>
+                <table class="text-center">
+                    <thead>
+                        <tr class="">
+                            <th>Tanggal</th>
+                            <th>Nomer Transaksi</th>
+                            <th>Nomer Handphone</th>
+                            <th>Total Harga</th>
+                            <th>Status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>22-07-2023 20:14:34</td>
+                            <td>BJ16899093334</td>
+                            <td>081392413876</td>
+                            <td>Rp 21.800</td>
+                            <td class="belum-diproses">Belum Diproses</td>
+                        </tr>
+                        <tr>
+                            <td>22-07-2023 20:14:34</td>
+                            <td>BJ16899093334</td>
+                            <td>081392413876</td>
+                            <td>Rp 21.800</td>
+                            <td class="tertunda">Tertunda</td>
+                        </tr>
+                        <tr>
+                            <td>22-07-2023 20:14:34</td>
+                            <td>BJ16899093334</td>
+                            <td>081392413876</td>
+                            <td>Rp 21.800</td>
+                            <td class="selesai">Selesai</td>
+                        </tr>
+                        <tr>
+                            <td>22-07-2023 20:14:34</td>
+                            <td>BJ16899093334</td>
+                            <td>081392413876</td>
+                            <td>Rp 21.800</td>
+                            <td class="selesai">Selesai</td>
+                        </tr>
+                        <tr>
+                            <td>22-07-2023 20:14:34</td>
+                            <td>BJ16899093334</td>
+                            <td>081392413876</td>
+                            <td>Rp 21.800</td>
+                            <td class="tertunda">Tertunda</td>
+                        </tr>
+                        <tr>
+                            <td>22-07-2023 20:14:34</td>
+                            <td>BJ16899093334</td>
+                            <td>081392413876</td>
+                            <td>Rp 21.800</td>
+                            <td class="proses">Proses</td>
+                        </tr>
+                        <tr>
+                            <td>22-07-2023 20:14:34</td>
+                            <td>BJ16899093334</td>
+                            <td>081392413876</td>
+                            <td>Rp 21.800</td>
+                            <td class="belum-diproses">Belum Diproses</td>
+                        </tr>
+                        <tr>
+                            <td>22-07-2023 20:14:34</td>
+                            <td>BJ16899093334</td>
+                            <td>081392413876</td>
+                            <td>Rp 21.800</td>
+                            <td class="belum-diproses">Belum Diproses</td>
+                        </tr>
+                        <tr>
+                            <td>22-07-2023 20:14:34</td>
+                            <td>BJ16899093334</td>
+                            <td>081392413876</td>
+                            <td>Rp 21.800</td>
+                            <td class="belum-diproses">Belum Diproses</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
@@ -263,15 +284,6 @@
     <!-- Bootsrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
-
-    <!-- Change Button on Toggle Accordion -->
-    <script>
-        $(document).ready(function () {
-            $('.accordion-button-custom').click(function () {
-                $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
-            });
-        });
     </script>
 </body>
 

@@ -38,8 +38,13 @@ nav {
     padding: 16px 56px;
 }
 
-input {
-    font-family: 'Font Awesome';
+nav input.form-icon {
+    font-family: 'Nunito Sans', 'FontAwesome', sans-serif;
+    text-decoration: inherit;
+    color: #B1B8C1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 .nav-link.active {
