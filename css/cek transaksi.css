@@ -1,0 +1,166 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* navbar */
+nav {
+    background-color: #1A1A1A;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-item .nav-link {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.button-daftar {
+    border-radius: 8px;
+    border: 2px solid #D84533;
+    color: #D84533;
+    background-color: transparent;
+    padding: 16px 56px;
+}
+
+.button-daftar:hover {
+    background-color: #D84533;
+    color: #FFFFFF;
+
+}
+
+.button-masuk {
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #D84533;
+    padding: 16px 56px;
+}
+
+input {
+    font-family: 'Font Awesome';
+}
+
+.nav-link.active {
+    color: #D84533 !important;
+}
+
+/* END Navbar */
+/* Content */
+.content {
+    color: #FFFFFF;
+}
+
+
+.content h4.title {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.content h6.subtitle {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.content p.description {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .accordion-header {
+    border-radius: 10px 10px 0px 0px;
+    background: #818181;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .accordion-button-custom {
+    border: none;
+    color: #FFF;
+    height: 60px;
+    border-radius: 8px;
+    background: #818181;
+}
+
+.content .accordion-body {
+    background: #444343;
+    color: #FFF;
+}
+
+.content .accordion-body label,
+.content .accordion-body p.title,
+.content .accordion-body p.description {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .accordion-body .button-check-winrate {
+    border-radius: 8px;
+    background: #E54649;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 290px;
+    padding: 16px 46px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content .accordion-body .button-order-joki {
+    border-radius: 8px;
+    border: 1px solid #E54649;
+    color: #E54649;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 290px;
+    padding: 16px 46px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* END Content */
+/* Footer */
+footer {
+    color: #FFFFFF;
+}
+
+footer .icon-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+footer .header {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* END Footer */
