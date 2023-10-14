@@ -168,6 +168,15 @@ nav input.form-icon {
     line-height: 30px;
 }
 
+.content-1 input.form-icon {
+    font-family: 'Nunito Sans', 'FontAwesome', sans-serif;
+    text-decoration: inherit;
+    color: #B1B8C1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
 .content .right-content .content-1 span.caption {
     font-size: 24px;
     font-weight: 700;
