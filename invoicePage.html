@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Artikel Detail</title>
+    <title>Invoice Page</title>
 
     <!-- Bootsrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,13 +19,10 @@
 
     <!-- Bootsrap Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/artikel index.css">
-
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
+    <link rel="stylesheet" href="css/invoice page.css">
 
 </head>
 
@@ -53,7 +50,7 @@
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="produkPage.html">Produk</a>
@@ -65,7 +62,7 @@
                         <a class="nav-link" href="cek-transaksi-kalkulator.html">Kalkulator</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="artikel-index.html">Artikel</a>
+                        <a class="nav-link" href="artikel-index.html">Artikel</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav d-flex align-items-center-lg">
@@ -91,204 +88,77 @@
 
     <!-- Content -->
     <section class="container my-5 content">
-        <div class="row slider-img">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide position-relative">
-                        <a href="">
-                            <img src="assets/img/artikel detail.jpeg" height="" alt="">
-                            <div class="row caption position-absolute bottom-0 ps-3">
-                                <h4 class="title">5 Alasan Top Up di BangJeff Aman dan Terpercaya</h4>
-                                <p class="subtitle" style="color: #fff;">Ragu top up di BangJeff? Simak dulu alasan
-                                    mengapa top up di
-                                    BangJeff
-                                    selalu aman dan terpecaya berikut ini.</p>
-                            </div>
-
-                        </a>
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-8 box">
+                <div class="row text-center custom-box">
+                    <h5 class="time-left">
+                        Selesaikan Pembayaran dalam : <span class="gold-text">23 Jam 38 Menit 40 Detik</span>
+                    </h5>
+                </div>
+                <div class="row detail-trasaction-data d-flex justify-content-between m-3">
+                    <div class="col">
+                        <p class="my-2">Nomer Transaksi</p>
+                        <p class="my-2">Nama Produk</p>
+                        <p class="my-2">Data Produk</p>
+                        <p class="my-2">UserId (Server id)</p>
+                        <p class="my-2">Nickname</p>
+                        <p class="my-2">Metode Pembayaran</p>
+                        <p class="my-2">Status Pembayaran</p>
+                        <p class="my-2">Status Transaksi</p>
+                        <p class="my-2">Total Tagihan (Termasuk Biaya Admin)</p>
                     </div>
-                    <div class="swiper-slide">
-                        <a href="">
-                            <img src="assets/img/banner.jpeg" height="" alt="">
-                            <div class="row caption position-absolute bottom-0 ps-3">
-                                <h4 class="title">5 Alasan Top Up di BangJeff Aman dan Terpercaya</h4>
-                                <p class="subtitle" style="color: #fff;">Ragu top up di BangJeff? Simak dulu alasan
-                                    mengapa top up di
-                                    BangJeff
-                                    selalu aman dan terpecaya berikut ini.</p>
-                            </div>
-                        </a>
+                    <div class="col-4">
+                        <p class="my-2">BJ16899093334</p>
+                        <p class="my-2">Mobile Legends Bang Bang</p>
+                        <p class="my-2">86 (78 + 8) Diamonds</p>
+                        <p class="my-2">84762837 (2165)</p>
+                        <p class="my-2">EmMu Converter</p>
+                        <p class="my-2">QRIS</p>
+                        <button class="btn btn-danger">Belum Bayar</button><br>
+                        <button class="btn btn-warning">Belum Diproses</button>
+                        <p class="my-1">Rp 21.800</p>
                     </div>
-
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </div>
-
-        <div class="row article-topic">
-            <h4 class="title my-5">Topik Artikel</h4>
-
-            <div class="row box d-flex justify-content-center justify-content-lg-start">
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
-                </div>
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
-                </div>
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
-                </div>
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
-                </div>
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
-                </div>
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
-                </div>
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
-                </div>
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
-                </div>
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
-                </div>
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
-                </div>
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
-                </div>
-                <div class="col-lg-2 box-category d-flex align-items-center justify-content-center mx-2 my-3"
-                    style="background-image: url('assets/img/article\ mobile\ legend\ 2.png'); background-size: cover;">
-                    <h4 class="category-title">Kategori</h4>
+                <div class="row payment my-4 m-3">
+                    <h4 class="title">QR Bayar :</h4>
+                    <div class="col-3">
+                        <img src="assets/img/qrcode.png" alt="" width="200" height="200">
+                    </div>
+                    <h5 class="payment-method my-2">Cara Pembayaran :</h5>
+                    <div class="col-12 d-flex justify-content-between align-items-center">
+                        <p class="qris">Pembayaran Via QRIS</p>
+                        <i class="fa fa-chevron-right me-4"></i>
+                    </div>
+                    <div class="row d-flex justify-content-center my-5">
+                        <span class="line"></span>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button-custom d-flex justify-content-between" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Pembayaran Via QRIS (Mobile)
+                                    <i class="fas fa-chevron-right px-3"></i>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        1. Download QR Code pada invoice <br> 2. Masuk ke aplikasi dompet digital Anda
+                                        yang
+                                        telah mendukung QRIS <br> 3. Upload QR Code yang telah di download tadi <br> 4.
+                                        Akan
+                                        muncul detail transaksi. Pastikan data transaksi sudah sesuai <br> 5. Selesaikan
+                                        proses pembayaran Anda <br> 6. Transaksi selesai. Simpan bukti pembayaran Anda
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="row daily-update my-5">
-            <h4 class="title">Update Harian</h4>
-
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-4">
-                    <a href="artikel-detail.html">
-                        <img src="assets/img/article section.png" alt="" width="400" height="300" class="rounded-3">
-                        <div class="row position-relative">
-                            <a href="#" class="position-absolute bottom-0 left-0 mx-5 my-4 py-2 article-time">1 Jam yang
-                                lalu</a>
-                        </div>
-
-                    </a>
-                </div>
-                <div class="col-lg-8 my-5">
-                    <h4 class="article-title">5 Alasan Top Up di BangJeff Aman dan Terpercaya</h4>
-                    <p class="category">Games</p>
-                    <p class="article-description">Banyak game-game dengan konsep gameplay yang aneh serta unik, seperti
-                        beberapa game ini yang memiliki konsep bermain berupa mengetik. Berbicara game, umumnya game
-                        adalah sesuatu yang mampu memberikan kepuasan dalam pengalaman bermain, seperti genre FPS, 3rd
-                        Person, Open World, RPG, dan lain sebagainya dengan mekanismenya sendiri. Namun konsep-konsep
-                        bermain seperti itu adalah hal biasa di industri game, ....</p>
-                </div>
-            </div>
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-4">
-                    <a href="artikel-detail.html">
-                        <img src="assets/img/article section.png" alt="" width="400" height="300" class="rounded-3">
-                        <div class="row position-relative">
-                            <a href="#" class="position-absolute bottom-0 left-0 mx-5 my-4 py-2 article-time">1 Jam yang
-                                lalu</a>
-                        </div>
-
-                    </a>
-                </div>
-                <div class="col-lg-8 my-5">
-                    <h4 class="article-title">5 Alasan Top Up di BangJeff Aman dan Terpercaya</h4>
-                    <p class="category">Games</p>
-                    <p class="article-description">Banyak game-game dengan konsep gameplay yang aneh serta unik, seperti
-                        beberapa game ini yang memiliki konsep bermain berupa mengetik. Berbicara game, umumnya game
-                        adalah sesuatu yang mampu memberikan kepuasan dalam pengalaman bermain, seperti genre FPS, 3rd
-                        Person, Open World, RPG, dan lain sebagainya dengan mekanismenya sendiri. Namun konsep-konsep
-                        bermain seperti itu adalah hal biasa di industri game, ....</p>
-                </div>
-            </div>
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-4">
-                    <a href="artikel-detail.html">
-                        <img src="assets/img/article section.png" alt="" width="400" height="300" class="rounded-3">
-                        <div class="row position-relative">
-                            <a href="#" class="position-absolute bottom-0 left-0 mx-5 my-4 py-2 article-time">1 Jam yang
-                                lalu</a>
-                        </div>
-
-                    </a>
-                </div>
-                <div class="col-lg-8 my-5">
-                    <h4 class="article-title">5 Alasan Top Up di BangJeff Aman dan Terpercaya</h4>
-                    <p class="category">Games</p>
-                    <p class="article-description">Banyak game-game dengan konsep gameplay yang aneh serta unik, seperti
-                        beberapa game ini yang memiliki konsep bermain berupa mengetik. Berbicara game, umumnya game
-                        adalah sesuatu yang mampu memberikan kepuasan dalam pengalaman bermain, seperti genre FPS, 3rd
-                        Person, Open World, RPG, dan lain sebagainya dengan mekanismenya sendiri. Namun konsep-konsep
-                        bermain seperti itu adalah hal biasa di industri game, ....</p>
-                </div>
-            </div>
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-4">
-                    <a href="artikel-detail.html">
-                        <img src="assets/img/article section.png" alt="" width="400" height="300" class="rounded-3">
-                        <div class="row position-relative">
-                            <a href="#" class="position-absolute bottom-0 left-0 mx-5 my-4 py-2 article-time">1 Jam yang
-                                lalu</a>
-                        </div>
-
-                    </a>
-                </div>
-                <div class="col-lg-8 my-5">
-                    <h4 class="article-title">5 Alasan Top Up di BangJeff Aman dan Terpercaya</h4>
-                    <p class="category">Games</p>
-                    <p class="article-description">Banyak game-game dengan konsep gameplay yang aneh serta unik, seperti
-                        beberapa game ini yang memiliki konsep bermain berupa mengetik. Berbicara game, umumnya game
-                        adalah sesuatu yang mampu memberikan kepuasan dalam pengalaman bermain, seperti genre FPS, 3rd
-                        Person, Open World, RPG, dan lain sebagainya dengan mekanismenya sendiri. Namun konsep-konsep
-                        bermain seperti itu adalah hal biasa di industri game, ....</p>
-                </div>
-            </div>
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-4">
-                    <a href="artikel-detail.html">
-                        <img src="assets/img/article section.png" alt="" width="400" height="300" class="rounded-3">
-                        <div class="row position-relative">
-                            <a href="#" class="position-absolute bottom-0 left-0 mx-5 my-4 py-2 article-time">1 Jam yang
-                                lalu</a>
-                        </div>
-
-                    </a>
-                </div>
-                <div class="col-lg-8 my-5">
-                    <h4 class="article-title">5 Alasan Top Up di BangJeff Aman dan Terpercaya</h4>
-                    <p class="category">Games</p>
-                    <p class="article-description">Banyak game-game dengan konsep gameplay yang aneh serta unik, seperti
-                        beberapa game ini yang memiliki konsep bermain berupa mengetik. Berbicara game, umumnya game
-                        adalah sesuatu yang mampu memberikan kepuasan dalam pengalaman bermain, seperti genre FPS, 3rd
-                        Person, Open World, RPG, dan lain sebagainya dengan mekanismenya sendiri. Namun konsep-konsep
-                        bermain seperti itu adalah hal biasa di industri game, ....</p>
-                </div>
-            </div>
         </div>
     </section>
     <!-- Main Content -->
@@ -402,29 +272,6 @@
     <!-- Bootsrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 30,
-            centeredSlides: true,
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
     </script>
 </body>
 
