@@ -95,6 +95,20 @@ nav input.form-icon {
     filter: brightness(0) saturate(100%) invert(99%) sepia(94%) saturate(5%) hue-rotate(155deg) brightness(105%) contrast(100%);
 }
 
+.content .box-item .swiper-slide:hover {
+    background-color: #D84533;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFF;
+}
+
+.content .box-item .swiper-slide:hover>img {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(94%) saturate(5%) hue-rotate(155deg) brightness(105%) contrast(100%);
+}
+
+.content .box-item .swiper-slide:hover>p {
+    color: #FFF;
+}
+
 .content h4.title {
     color: #FFF;
     font-size: 24px;
