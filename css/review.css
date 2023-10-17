@@ -1,0 +1,243 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* navbar */
+nav {
+    background-color: #1A1A1A;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-item .nav-link {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.button-daftar {
+    border-radius: 8px;
+    border: 2px solid #D84533;
+    color: #D84533;
+    background-color: transparent;
+    padding: 16px 56px;
+}
+
+.button-daftar:hover {
+    background-color: #D84533;
+    color: #FFFFFF;
+
+}
+
+.button-masuk {
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #D84533;
+    padding: 16px 56px;
+}
+
+nav input.form-icon {
+    font-family: 'Nunito Sans', 'FontAwesome', sans-serif;
+    text-decoration: inherit;
+    color: #B1B8C1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.nav-link.active {
+    color: #D84533 !important;
+}
+
+/* END Navbar */
+
+/* Content */
+.content {
+    color: #FFFFFF;
+}
+
+.content h4.title {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.content p.subtitle {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .box {
+    border-radius: 10px;
+    background: #444343;
+}
+
+.content .box h5.value {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.content .box p.ulasan {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.content p.star-value {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.content .box .progress-bar {
+    background-color: #E54649;
+}
+
+.content .box h5.title {
+    color: #F6BC97;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.content .box .card {
+    background-color: transparent;
+    border: none;
+}
+
+.content .box h5.card-title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.content .box span.time {
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .box .card h6.card-subtitle {
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .box .card p.comment {
+    color: #FFF;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .box .card p.amount {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Card on Review List */
+.content .review-list .card {
+    border-radius: 10px;
+    background: #444343;
+}
+
+.content .review-list h5.card-title {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.content .review-list span.time {
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .review-list .card h6.card-subtitle {
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .review-list .card p.comment {
+    color: #FFF;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .review-list .card p.amount {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* END Card on Review List */
+
+.content .button-show-more {
+    border-radius: 8px;
+    background: #E54649;
+    width: 290px;
+    min-width: 203px;
+    padding: 16px 46px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+/* END Content */
+
+/* Footer */
+footer {
+    color: #FFFFFF;
+}
+
+footer .icon-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+footer .header {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* END Footer */
