@@ -1,0 +1,66 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFF;
+}
+
+/* Left Content */
+.content .left-content h4.title {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.content .left-content p.info {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .left-content form label:not(label.remember-me) {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .left-content form label.remember-me {
+    color: #B1B8C1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .left-content form .forget-password {
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.content .left-content form button.button-login {
+    border-radius: 8px;
+    background: #E54649;
+    display: flex;
+    width: 100%;
+    padding: 16px 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* END Left Content */
+/* Right Content */
+.content .right-content {
+    background: #444343;
+    background-size: 50%;
+}
+
+/* END Right Content */
