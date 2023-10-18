@@ -1,0 +1,81 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFF;
+}
+
+@media (min-width: 992px) {
+    .content .box {
+        height: 100vh;
+    }
+}
+
+/* Left Content */
+.content .left-content {
+    background: #444343;
+    /* height: 100vh; */
+}
+
+/* END Left Content */
+/* Right Content */
+.content .right-content h4.title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.content p.info {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .right-content form label {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .right-content form input {
+    font-family: 'Nunito Sans', 'FontAwesome', sans-serif;
+    text-decoration: inherit;
+    color: #B1B8C1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .right-content form a.text-red {
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.content .right-content form .button-register {
+    border-radius: 8px;
+    background: #E54649;
+    display: flex;
+    width: 100%;
+    padding: 16px 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .right-content p.already-have-account {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* END Right Content */
