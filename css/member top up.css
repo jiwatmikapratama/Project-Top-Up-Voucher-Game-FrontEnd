@@ -141,92 +141,93 @@ nav .dropdown a:not(.dropdown-menu a) {
     background: #444343;
 }
 
-.content .right-content .img-box {
-    background-color: #D84533;
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-}
-
-.content .right-content .img-box img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    padding: 15%;
-}
-
-.content .right-content a.name {
+.content .right-content h4.title {
     color: #FFF;
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
 }
 
-.content .right-content p.member-category {
-    color: #B1B8C1;
+.content .right-content p.caption {
+    color: #FFF;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
 }
 
-.content .right-content span.line {
-    width: 95%;
-    height: 2px;
-    background-color: #B1B8C1;
+.content .right-content .box-question {
+    border: 2px solid #E54649;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    color: #E54649;
 }
 
-.content .right-content .button-edit-profile {
-    width: 203px;
-    min-width: 203px;
-    padding: 16px 46px;
+.content .right-content .amount-box {
+    border-radius: 10px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #1B1A1A;
+}
+
+.content .right-content .amount-box h5.top-up-title {
+    color: #1B1A1A;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.content .right-content .amount-box h6.top-up-amount {
+    color: #1B1A1A;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.content .right-content .membership-box h5.membership-title {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.content .right-content .button-top-up {
     border-radius: 8px;
     background: #E54649;
+    width: 290px;
+    padding: 16px 46px;
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
 }
 
-.content .right-content h4.title {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 34px;
-}
-
-.content .right-content h5.amount {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 50px;
-    background: linear-gradient(263deg, #F5791E 2.78%, #E54649 107.49%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.content .right-content .button-top-up,
-.content .right-content .button-buy-now {
-    border-radius: 8px;
-    background: #F5791E;
+.content .right-content .payment-method-group .method {
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    background: #818181;
     color: #FFF;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 28px;
+}
+
+.content .right-content .payment-method-group .list-app {
+    margin-top: -2%;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+
+.content .right-content .button-pay-now {
+    width: 290px;
     padding: 16px 46px;
-}
-
-.content .right-content h6.amount {
+    border-radius: 8px;
+    background: #E54649;
     color: #FFF;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 60px;
-}
-
-.content .right-content h6.status {
-    color: #B1B8C1;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 28px;
 }
 

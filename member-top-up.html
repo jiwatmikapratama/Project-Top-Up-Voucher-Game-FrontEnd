@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Member Dashboard</title>
+    <title>Member Top Up</title>
 
     <!-- Bootsrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/member dashboard.css">
+    <link rel="stylesheet" href="css/member top up.css">
 
 </head>
 
@@ -97,19 +97,19 @@
 
     <!-- Content -->
     <section class="container my-5 content ">
-        <div class="row d-flex gx-5 justify-content-between">
+        <div class="row d-flex justify-content-between">
             <div class="col-lg-3 sidebar" style="height: 50%;">
-                <div class="item d-flex align-items-center my-1 p-3 active">
+                <div class="item d-flex align-items-center my-1 p-3">
                     <i class="fa fa-dashboard"></i>
                     <a href="member-dashboard.html" class="caption text-decoration-none">Dashboard</a>
                 </div>
                 <div class="item d-flex align-items-center my-1 p-3">
                     <i class="fa-sharp fa-solid fa-id-card"></i>
-                    <a href="membership-upgrade.html" class="caption text-decoration-none">Membership</a>
+                    <a href="#" class="caption text-decoration-none">Membership</a>
                 </div>
-                <div class="item d-flex align-items-center my-1 p-3">
+                <div class="item d-flex align-items-center my-1 p-3 active">
                     <i class="fa-solid fa-sack-dollar"></i>
-                    <a href="member-top-up.html" class="caption text-decoration-none">Top Up Saldo</a>
+                    <a href="#" class="caption text-decoration-none">Top Up Saldo</a>
                 </div>
                 <div class="item d-flex align-items-center my-1 p-3">
                     <i class="fa-solid fa-clock"></i>
@@ -121,77 +121,107 @@
                 </div>
             </div>
             <div class="col-lg-9 right-content">
-                <div class="row box my-3 d-flex align-items-center py-3">
-                    <div class="col-lg-6">
-                        <div class="row d-flex align-items-center">
-                            <div class="col-2">
-                                <div class="img-box">
-                                    <img src="assets/icon/bang jeff.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-auto mx-3">
-                                <a class=" text-decoration-none mx-2 name" href="#" role="button" id="dropdownMenuLink"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Gilang Fathoni
-                                </a>
-
-                                <p class="member-category"><i class="fa-sharp fa-solid fa-id-card"></i> Reguler
-                                    Membership</p>
+                <div class="row">
+                    <h4 class="title">Top Up Saldo</h4>
+                    <p class="caption">Topuplah hari-harimu dengan kejutan tak terduga! Nikmati kemudahan dan rasakan
+                        sensasi berbeda dalam setiap transaksi. Jangan lewatkan kesempatan untuk mengisi energimu dengan
+                        top up langsung!</p>
+                </div>
+                <div class="row box my-3 d-flex align-items-center justify-content-between">
+                    <div class="col-lg-12">
+                        <div class="row d-flex">
+                            <div class="col-auto">
+                                <h4 class="title m-3">Top Up cepat</h4>
                             </div>
                         </div>
+                        <div class="row my-3 px-5">
+                            <div class="col-lg-auto mx-1 amount-box py-3 my-3">
+                                <h5 class="top-up-title">Paket Pemula</h5>
+                                <h6 class="top-up-amount">Rp 100.000,-</h6>
+                            </div>
+                            <div class="col-lg-auto mx-1 amount-box py-3 my-3">
+                                <h5 class="top-up-title">Paket Pemula</h5>
+                                <h6 class="top-up-amount">Rp 300.000,-</h6>
+                            </div>
+                            <div class="col-lg-auto mx-1 amount-box py-3 my-3">
+                                <h5 class="top-up-title">Paket Pemula</h5>
+                                <h6 class="top-up-amount">Rp 700.000,-</h6>
+                            </div>
+                            <div class="col-lg-auto mx-1 amount-box py-3 my-3">
+                                <h5 class="top-up-title">Paket Pemula</h5>
+                                <h6 class="top-up-amount">Rp 1.000.000,-</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row box my-3 d-flex align-items-center justify-content-between">
+                    <div class="col-lg-12">
+                        <div class="row d-flex">
+                            <div class="col-auto">
+                                <h4 class="m-3 title">Top Up Jumlah Lain</h4>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center my-3">
+                            <div class="col-lg-12">
+                                <form action="">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="other-amount"
+                                            placeholder="Contoh : Rp 1.500.000">
+                                    </div>
+                                </form>
+                            </div>
 
+                        </div>
                     </div>
-                    <div class="col-lg-6 d-flex align-items-center justify-content-end">
-                        <button class="button-edit-profile">Edit Profil</button>
-                    </div>
-                    <div class="row mx-3">
-                        <span class="line mt-3"></span>
-                    </div>
-                    <div class="col-10 d-flex gap-2 mt-5">
-                        <i class="fa fa-mobile"></i>
-                        <p class="no-telp">081392413876</p>
+                </div>
+                <div class="row box my-3 d-flex align-items-center pe-4">
+                    <div class="col-lg-12 m-3">
+                        <div class="row d-flex">
+                            <div class="col-auto">
+                                <h4 class="title">Pilih Metode Pembayaran</h4>
+                            </div>
+                        </div>
                     </div>
 
+                    <div class="payment-method-group my-3">
+                        <div class="method my-2 d-flex align-items-center p-3">
+                            QRIS</div>
+                        <div class="d-flex justify-content-end list-app ">
+                            <img src="assets/icon/qris.jpeg" alt="" width="" height="50px">
+                        </div>
+                    </div>
+                    <div class="payment-method-group my-3">
+                        <div class="method my-2 d-flex align-items-center p-3">
+                            E-Wallet</div>
+                        <div class="d-flex justify-content-end list-app ">
+                            <img src="assets/icon/e-wallet.jpeg" alt="" width="" height="50px">
+                        </div>
+                    </div>
+                    <div class="payment-method-group my-3">
+                        <div class="method my-2 d-flex align-items-center p-3">
+                            Convenience Store</div>
+                        <div class="d-flex justify-content-end list-app ">
+                            <img src="assets/icon/alfamart.jfif" alt="" width="" height="50px">
+                        </div>
+                    </div>
+                    <div class="payment-method-group my-3">
+                        <div class="method my-2 d-flex align-items-center p-3">
+                            QRIS</div>
+                        <div class="d-flex justify-content-end list-app ">
+                            <img src="assets/icon/qris.jpeg" alt="" width="" height="50px">
+                        </div>
+                    </div>
+                    <div class="payment-method-group my-3">
+                        <div class="method my-2 d-flex align-items-center p-3">
+                            QRIS</div>
+                        <div class="d-flex justify-content-end list-app ">
+                            <img src="assets/icon/qris.jpeg" alt="" width="" height="50px">
+                        </div>
+                    </div>
                 </div>
-                <div class="row box my-3 d-flex align-items-center justify-content-between">
-                    <div class="col-lg-5 m-3">
-                        <h4 class="title">Total Saldo</h4>
-                        <h5 class="amount">RP 0,-</h5>
-                    </div>
-                    <div class="col-lg-6 d-flex justify-content-end mb-3">
-                        <button class="button-top-up">Top Up</button>
-                    </div>
-                </div>
-                <div class="row box my-3 d-flex align-items-center justify-content-between">
-                    <div class="col-lg-5 m-3">
-                        <h4 class="title">Total Pembelian</h4>
-                        <h5 class="amount">RP 150.000,-</h5>
-                    </div>
-                    <div class="col-lg-6 d-flex justify-content-end mb-3">
-                        <button class="button-buy-now">Beli Sekarang</button>
-                    </div>
-                </div>
-                <div class="row box my-3 d-flex align-items-center justify-content-between">
-                    <div class="col-lg-5 m-3">
-                        <h4 class="title">Pesanan Saya</h4>
-                    </div>
-                    <div class="row mb-4">
-                        <div class="item-order col-3 text-center">
-                            <h6 class="amount">0</h6>
-                            <h6 class="status">Belum bayar</h6>
-                        </div>
-                        <div class="item-order col-3 text-center">
-                            <h6 class="amount">0</h6>
-                            <h6 class="status">Tertunda</h6>
-                        </div>
-                        <div class="item-order col-3 text-center">
-                            <h6 class="amount">2</h6>
-                            <h6 class="status">Sukses</h6>
-                        </div>
-                        <div class="item-order col-3 text-center">
-                            <h6 class="amount">0</h6>
-                            <h6 class="status">Kedaluarsa</h6>
-                        </div>
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <button class="button-pay-now">Bayar Sekarang</button>
                     </div>
                 </div>
             </div>
