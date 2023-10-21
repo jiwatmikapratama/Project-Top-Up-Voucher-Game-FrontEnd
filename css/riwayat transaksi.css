@@ -164,62 +164,23 @@ nav .dropdown a:not(.dropdown-menu a) {
     line-height: 28px;
 }
 
-.content .right-content .amount-box {
-    border-radius: 10px;
-    border-radius: 10px;
-    background: #FFF;
-    color: #1B1A1A;
-}
-
-.content .right-content .amount-box h5.top-up-title {
-    color: #1B1A1A;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 28px;
-}
-
-.content .right-content .amount-box h6.top-up-amount {
-    color: #1B1A1A;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 34px;
-}
-
-.content .right-content .membership-box h5.membership-title {
+.content .right-content h5.search-category {
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
 }
 
-
-.content .right-content .button-top-up {
+.content .right-content .button-search-order {
     border-radius: 8px;
     background: #E54649;
     width: 290px;
     padding: 16px 46px;
     color: #FFF;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 28px;
 }
-
-.content .right-content .payment-method-group .method {
-    height: 50px;
-    border-radius: 10px 10px 0px 0px;
-    background: #818181;
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 28px;
-}
-
-.content .right-content .payment-method-group .list-app {
-    margin-top: -2%;
-    border-radius: 10px;
-    background: #FFF;
-}
-
 
 .content .right-content .button-pay-now {
     width: 290px;
@@ -230,6 +191,48 @@ nav .dropdown a:not(.dropdown-menu a) {
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
+}
+
+.content .right-content table thead tr {
+    background: #818181;
+}
+
+.content .right-content table thead tr th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.content .right-content table thead tr th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.content .right-content img {
+    width: 30%;
+}
+
+.content .right-content h5.info {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.content .right-content img.img-arrow {
+    width: 15%;
+}
+
+.content .right-content p.info-data {
+    color: #B1B8C1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content .right-content a.arrow-info {
+    color: #E54649;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
 }
 
 /* END Content */
